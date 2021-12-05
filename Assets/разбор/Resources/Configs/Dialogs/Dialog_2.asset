@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57d5381ad876ca04a9a04aace9a40e87, type: 3}
+  m_Name: Dialog_2
+  m_EditorClassIdentifier: 
+  _speakerOne:
+    ID: 0
+    SpeakerSprite: {fileID: 21300000, guid: d4eb467e5d1659b46a956887b607eb5f, type: 3}
+  _speakerTwo:
+    ID: 1
+    SpeakerSprite: {fileID: 21300000, guid: 235851dbb2adddb4da3edac6d43e3dfa, type: 3}
+  _phrases:
+  - SpeakerId: 1
+    PhraseAlias: dialog_2_1
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
+  - SpeakerId: 0
+    PhraseAlias: dialog_2_2
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
+  - SpeakerId: 1
+    PhraseAlias: dialog_2_3
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
+  - SpeakerId: 0
+    PhraseAlias: dialog_2_4
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
+  - SpeakerId: 1
+    PhraseAlias: dialog_2_5
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
+  - SpeakerId: 0
+    PhraseAlias: dialog_2_6
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
+  - SpeakerId: 1
+    PhraseAlias: dialog_2_7
+    PhraseColor: {r: 1, g: 1, b: 1, a: 1}
