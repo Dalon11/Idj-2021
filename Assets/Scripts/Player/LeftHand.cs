@@ -3,6 +3,10 @@ using UnityEngine;
 
 public class LeftHand : MonoBehaviour
 {
+    //Так как котсная анимация которую я делал полетела.
+    //То этот класс сейчас бесполезен.
+    //Он нужен был для кат сцены
+    //Где персонаж берёт банку(физический объект) из рук девы.
     [SerializeField] private Animator _animator = null;
     [SerializeField] private HingeJoint2D _rope = null;
 

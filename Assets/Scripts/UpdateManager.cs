@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class UpdateManager : MonoBehaviour
 {
+    //Сам апдейт менеджер должен быть на сцене чтобы выполнить в одном потоке классы которые
+    //в этом нуждються. Они же Монокеш.
     private Singleton _singleton = Singleton.GetInstance();
     private void Start(){}
 

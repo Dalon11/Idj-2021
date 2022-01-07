@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class MonoCache : MonoBehaviour
 {
+    //Через этот класс реализуеться список для апдейт менеджера.
     private Singleton _singleton = Singleton.GetInstance();
 
     protected void AddLateTick() => _singleton.MonoCacheList.LataTick.Add(this);
